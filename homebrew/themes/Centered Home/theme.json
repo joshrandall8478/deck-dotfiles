@@ -1,0 +1,70 @@
+{
+  "name": "Centered Home",
+  "author": "EMERALD#0874",
+  "version": "v1.3",
+  "manifest_version": 2,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "patches": {
+    "Hide Header": {
+      "default": "Yes, center on games",
+      "type": "dropdown",
+      "values": {
+        "Yes, center on games": {
+          "hide-header.css": [
+            "SP"
+          ]
+        },
+        "Yes, center on all": {
+          "hide-header.css": [
+            "SP"
+          ],
+          "center-hidden-header.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Force Header to Stay Visible": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "force-header.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "Expand When Docked": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "docked.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "Show Footer Categories": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "show-footer-categories.css": [
+            "SP"
+          ]
+        }
+      }
+    }
+  },
+  "id": "865407ae-fb14-4db7-b123-61f6995ed757"
+}

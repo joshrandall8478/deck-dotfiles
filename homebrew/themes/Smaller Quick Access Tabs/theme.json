@@ -1,0 +1,44 @@
+{
+  "name": "Smaller Quick Access Tabs",
+  "version": "v1.3",
+  "author": "RasitAyaz",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "QuickAccess"
+    ]
+  },
+  "patches": {
+    "Tab Height": {
+      "default": "Square",
+      "type": "slider",
+      "values": {
+        "Square": {
+          "--qam-tab-height": [
+            "48px",
+            "QuickAccess"
+          ]
+        },
+        "52px": {
+          "--qam-tab-height": [
+            "52px",
+            "QuickAccess"
+          ]
+        },
+        "56px": {
+          "--qam-tab-height": [
+            "56px",
+            "QuickAccess"
+          ]
+        },
+        "60px": {
+          "--qam-tab-height": [
+            "60px",
+            "QuickAccess"
+          ]
+        }
+      }
+    }
+  },
+  "id": "f6df2c7e-3273-4dd7-ae00-2490e7acf301"
+}

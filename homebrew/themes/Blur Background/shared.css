@@ -1,0 +1,11 @@
+:root {
+  --gaker19-blur-strength-bg: unset;
+  --gaker19-brightness-bg: unset;
+}
+
+.gamepadhomerecentgames_RecentGamesBackground_1SRox {
+    opacity: 1 !important;
+    filter: blur(var(--gaker19-blur-strength-bg)) brightness(var(--gaker19-brightness-bg)) !important;
+    transform: scale(1.05);
+    transform-origin: center;
+}

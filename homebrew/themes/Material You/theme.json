@@ -1,0 +1,133 @@
+{
+  "name": "Material You",
+  "author": "SuchMeme",
+  "version": "v1.5",
+  "manifest_version": 8,
+  "tabs": {
+    "all": [
+      "bigpicture",
+      "bigpictureoverlay",
+      "notificationtoasts.*"
+    ]
+  },
+  "dependencies": {
+    "Focus Highlight Color": {},
+    "No Home Edge Fade": {},
+    "Library Move Extra Info": {},
+    "BPM Settings Storage No Padding": {}
+  },
+  "inject": {
+    "quickaccess.css": [
+      "bigpicture",
+      "bigpictureoverlay"
+    ],
+    "modals.css": [
+      "bigpicture"
+    ],
+    "menu.css": [
+      "bigpicture"
+    ],
+    "bars.css": [
+      "bigpicture",
+      "bigpictureoverlay"
+    ],
+    "home.css": [
+      "bigpicture"
+    ],
+    "mainmenu.css": [
+      "bigpictureoverlay"
+    ],
+    "gameview.css": [
+      "bigpicture"
+    ],
+    "volume.css": [
+      "bigpicture"
+    ],
+    "notification.css": [
+      "notificationtoasts.*"
+    ],
+    "downloads.css": [
+      "bigpicture"
+    ]
+  },
+  "patches": {
+    "Dark Mode": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "dark.css": [
+            "all"
+          ]
+        },
+        "No": {
+          "light.css": [
+            "all"
+          ]
+        }
+      }
+    },
+    "Color": {
+      "type": "dropdown",
+      "default": "Blue",
+      "values": {
+        "Pink": {
+          "palettes/pink.css": [
+            "all"
+          ]
+        },
+        "Orange": {
+          "palettes/orange.css": [
+            "all"
+          ]
+        },
+        "Yellow": {
+          "palettes/yellow.css": [
+            "all"
+          ]
+        },
+        "Green": {
+          "palettes/green.css": [
+            "all"
+          ]
+        },
+        "Mint": {
+          "palettes/mint.css": [
+            "all"
+          ]
+        },
+        "Cyan": {
+          "palettes/cyan.css": [
+            "all"
+          ]
+        },
+        "Blue": {
+          "palettes/blue.css": [
+            "all"
+          ]
+        },
+        "Purple": {
+          "palettes/purple.css": [
+            "all"
+          ]
+        },
+        "Custom Slot": {
+          "palettes/custom_slot.css": [
+            "all"
+          ]
+        }
+      }
+    },
+    "Invert SVG": {
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "invertsvg.css": [
+            "all"
+          ]
+        }
+      }
+    }
+  },
+  "id": "2b1f81e3-1cb3-4aab-9c60-ee15714c00b2"
+}

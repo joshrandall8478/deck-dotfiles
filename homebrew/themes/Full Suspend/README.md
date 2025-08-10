@@ -1,0 +1,1 @@
+Force fullscreen supension animation. Works with the Animation Changer Plugin.

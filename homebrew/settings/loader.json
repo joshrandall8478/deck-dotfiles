@@ -1,0 +1,29 @@
+{
+    "branch": 0,
+    "pluginOrder": [
+        "MusicControl",
+        "Pause Games",
+        "TunnelDeck",
+        "Discord Status",
+        "Controller Tools",
+        "Volume Mixer",
+        "Animation Changer",
+        "Audio Loader",
+        "Syncthing",
+        "DeckyFileServer",
+        "CSS Loader",
+        "ProtonDB Badges",
+        "Shotty",
+        "Volume Boost",
+        "Storage Cleaner",
+        "EmuDecky",
+        "BT Wake Control"
+    ],
+    "user_info.user_name": "deck",
+    "user_info.user_home": "/home/deck",
+    "store": 0,
+    "developer.enabled": true,
+    "hiddenPlugins": [
+        "ProtonDB Badges"
+    ]
+}

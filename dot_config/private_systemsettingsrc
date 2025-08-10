@@ -1,0 +1,37 @@
+[FileDialogSize]
+1280x800 screen: Height=710
+1280x800 screen: Width=1076
+
+[KFileDialog Settings][$i]
+detailViewIconSize[$i]=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=569
+1920x1080 screen: Width=535
+
+[MainWindow]
+1280x720 screen: Height=638
+1280x720 screen: Width=1280
+1280x800 screen: Height=714
+1280x800 screen: Width=1280
+1280x800 screen: Window-Maximized=true
+1280x800 screen: XPosition=0
+1280x800 screen: YPosition=28
+1680x1050 screen: Window-Maximized=true
+1920x1080 screen: Height=998
+1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=28
+2 screens: Height=770
+2 screens: Width=1122
+2 screens: Window-Maximized=true
+2 screens: XPosition=158
+2 screens: YPosition=28
+DisplayPort-0=DisplayPort-0
+DisplayPort-0 eDP=eDP
+DisplayPort-2=DisplayPort-2
+DisplayPort-3=DisplayPort-3
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP=eDP

@@ -1,0 +1,11 @@
+{
+  "name": "No Home Game Glow",
+  "author": "RasitAyaz",
+  "manifest_version": 3,
+  "inject": {
+    "shared.css": [
+      "Steam Big Picture Mode"
+    ]
+  },
+  "id": "c44791a3-42e2-4ed8-897b-ba76aea92dd4"
+}

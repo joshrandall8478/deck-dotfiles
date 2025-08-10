@@ -1,0 +1,14 @@
+{
+  "id": "723bec9d-4c27-4cd8-a291-2ebaaa54398c",
+  "name": "Better Download Page",
+  "author": "XikoCat",
+  "version": "v1.3",
+  "manifest_version": 9,
+  "inject": {
+    "downloads_page.css": [
+      "SP"
+    ]
+  },
+  "dependencies": {},
+  "patches": {}
+}

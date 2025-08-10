@@ -1,0 +1,161 @@
+{
+  "name": "Static Background",
+  "version": "v2.0",
+  "author": "SuchMeme",
+  "manifest_version": 4,
+  "patches": {
+    "Home": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "home.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      },
+      "components": [
+        {
+          "name": "Home Background",
+          "type": "image-picker",
+          "on": "Yes",
+          "default": "Static Background/background.jpg",
+          "css_variable": "sbg-home-background",
+          "tabs": [
+            "SP"
+          ]
+        }
+      ]
+    },
+    "Library": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "library.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      },
+      "components": [
+        {
+          "name": "Library Background",
+          "type": "image-picker",
+          "on": "Yes",
+          "default": "Static Background/background.jpg",
+          "css_variable": "sbg-library-background",
+          "tabs": [
+            "SP"
+          ]
+        }
+      ]
+    },
+    "Search": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "search.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      },
+      "components": [
+        {
+          "name": "Search Background",
+          "type": "image-picker",
+          "on": "Yes",
+          "default": "Static Background/background.jpg",
+          "css_variable": "sbg-search-background",
+          "tabs": [
+            "SP"
+          ]
+        }
+      ]
+    },
+    "Friends": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "friends.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      },
+      "components": [
+        {
+          "name": "Friends Background",
+          "type": "image-picker",
+          "on": "Yes",
+          "default": "Static Background/background.jpg",
+          "css_variable": "sbg-friends-background",
+          "tabs": [
+            "SP"
+          ]
+        }
+      ]
+    },
+    "Global Brightness": {
+      "type": "slider",
+      "default": ".5",
+      "values": {
+        ".1": {
+          "brightness/10.css": [
+            "SP"
+          ]
+        },
+        ".2": {
+          "brightness/20.css": [
+            "SP"
+          ]
+        },
+        ".3": {
+          "brightness/30.css": [
+            "SP"
+          ]
+        },
+        ".4": {
+          "brightness/40.css": [
+            "SP"
+          ]
+        },
+        ".5": {
+          "brightness/50.css": [
+            "SP"
+          ]
+        },
+        ".6": {
+          "brightness/60.css": [
+            "SP"
+          ]
+        },
+        ".7": {
+          "brightness/70.css": [
+            "SP"
+          ]
+        },
+        ".8": {
+          "brightness/80.css": [
+            "SP"
+          ]
+        },
+        ".9": {
+          "brightness/90.css": [
+            "SP"
+          ]
+        },
+        "1": {
+          "brightness/100.css": [
+            "SP"
+          ]
+        }
+      }
+    }
+  },
+  "id": "d2ea5865-bad2-44cf-b648-f0766492a532"
+}

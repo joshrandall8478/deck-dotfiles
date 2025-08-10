@@ -1,0 +1,25 @@
+{
+  "name": "OSD Volume",
+  "author": "Ticky",
+  "version": "v0.1.2",
+  "manifest_version": 9,
+  "inject": {
+    "index.css": [
+      "bigpicture"
+    ]
+  },
+  "patches": {
+    "Preview": {
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "preview.css": [
+            "bigpicture"
+          ]
+        }
+      }
+    }
+  },
+  "id": "ec263489-fc54-4031-b5ca-07c4102f42f7"
+}

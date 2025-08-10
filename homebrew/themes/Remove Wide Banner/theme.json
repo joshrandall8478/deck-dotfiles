@@ -1,0 +1,90 @@
+{
+  "name": "Remove Wide Banner",
+  "display_name": "Edit Featured Banner",
+  "author": "zWolfrost",
+  "version": "v5.1",
+  "manifest_version": 9,
+  "inject": {
+    "shared.css": [
+      "bigpicture"
+    ]
+  },
+  "dependencies": {},
+  "patches": {
+    "Image Fit": {
+      "type": "dropdown",
+      "default": "Cover",
+      "values": {
+        "Cover": {
+          "--RWB-image-fit": [
+            "cover",
+            "bigpicture"
+          ]
+        },
+        "Fill": {
+          "--RWB-image-fit": [
+            "fill",
+            "bigpicture"
+          ]
+        },
+        "Contain": {
+          "--RWB-image-fit": [
+            "contain",
+            "bigpicture"
+          ]
+        }
+      },
+      "components": []
+    },
+    "Final Shape": {
+      "type": "dropdown",
+      "default": "Capsule",
+      "values": {
+        "Capsule": {
+          "--RWB-end-width": [
+            "133px",
+            "bigpicture"
+          ]
+        },
+        "Square": {
+          "--RWB-end-width": [
+            "199.5px",
+            "bigpicture"
+          ]
+        },
+        "Banner": {
+          "--RWB-end-width": [
+            "426.837px",
+            "bigpicture"
+          ]
+        }
+      },
+      "components": []
+    },
+    "Carousel Left Shift": {
+      "type": "slider",
+      "default": "Full",
+      "values": {
+        "None": {
+          "--RWB-shift-multiplier": [
+            "0",
+            "bigpicture"
+          ]
+        },
+        "Half": {
+          "--RWB-shift-multiplier": [
+            "0.5",
+            "bigpicture"
+          ]
+        },
+        "Full": {
+          "--RWB-shift-multiplier": [
+            "1",
+            "bigpicture"
+          ]
+        }
+      }
+    }
+  },
+  "id": "aa6ae1d6-3751-40b7-95ce-8df561218170"
+}

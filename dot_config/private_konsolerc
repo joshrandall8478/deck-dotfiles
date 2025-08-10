@@ -1,0 +1,37 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+1280x720 screen: Height=638
+1280x720 screen: Width=1280
+1280x720 screen: XPosition=0
+1280x720 screen: YPosition=28
+1280x800 screen: Height=722
+1280x800 screen: Width=1280
+1280x800 screen: Window-Maximized=true
+1280x800 screen: XPosition=445
+1280x800 screen: YPosition=364
+1680x1050 screen: Height=968
+1680x1050 screen: Width=1680
+1680x1050 screen: XPosition=0
+1680x1050 screen: YPosition=28
+1920x1080 screen: Height=1002
+1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=28
+2 screens: Height=998
+2 screens: Width=1920
+2 screens: XPosition=501
+2 screens: YPosition=1014
+DisplayPort-0=DisplayPort-0
+DisplayPort-0 eDP=eDP
+DisplayPort-2=DisplayPort-2
+ToolBarsMovable=Disabled
+eDP=eDP
+
+[UiSettings]
+ColorScheme=

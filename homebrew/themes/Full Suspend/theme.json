@@ -1,0 +1,12 @@
+{
+  "name": "Full Suspend",
+  "version": "v1.0",
+  "author": "SeanZhang",
+  "manifest_version": 1,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "id": "407fedb6-d44c-4181-8744-06bbdd59bb99"
+}

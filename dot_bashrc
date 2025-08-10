@@ -1,0 +1,12 @@
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+
+
+
+if command_output=$(cat /etc/os-release| grep -i "SteamOS"); then
+	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+	fastfetch -c ~/smallfetch-deck.jsonc
+    else
+	fastfetch -c ~/smallfetch.jsonc
+fi
+ 

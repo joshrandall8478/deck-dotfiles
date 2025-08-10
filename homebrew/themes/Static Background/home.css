@@ -1,0 +1,11 @@
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt {
+	position: absolute;
+    top: 0;
+    background-image: var(--sbg-global-img-filter), var(--sbg-home-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt > * {
+	display: none;
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Blur Background",
+  "version": "v1.0",
+  "author": "gaker19",
+  "manifest_version": 9,
+  "inject": {
+    "shared.css": [
+      "bigpicture"
+    ]
+  },
+  "patches": {
+    "Blur": {
+      "default": "16px",
+      "type": "slider",
+      "values": {
+        "Off": {
+          "--gaker19-blur-strength-bg": [
+            "0px",
+            "bigpicture"
+          ]
+        },
+        "2px": {
+          "--gaker19-blur-strength-bg": [
+            "2px",
+            "bigpicture"
+          ]
+        },
+        "4px": {
+          "--gaker19-blur-strength-bg": [
+            "4px",
+            "bigpicture"
+          ]
+        },
+        "8px": {
+          "--gaker19-blur-strength-bg": [
+            "8px",
+            "bigpicture"
+          ]
+        },
+        "16px": {
+          "--gaker19-blur-strength-bg": [
+            "16px",
+            "bigpicture"
+          ]
+        },
+        "32px": {
+          "--gaker19-blur-strength-bg": [
+            "32px",
+            "bigpicture"
+          ]
+        },
+        "64px": {
+          "--gaker19-blur-strength-bg": [
+            "64px",
+            "bigpicture"
+          ]
+        },
+        "128px": {
+          "--gaker19-blur-strength-bg": [
+            "128px",
+            "bigpicture"
+          ]
+        }
+      }
+    },
+    "Brightness": {
+      "default": "1",
+      "type": "slider",
+      "values": {
+        "0": {
+          "--gaker19-brightness-bg": [
+            "0",
+            "bigpicture"
+          ]
+        },
+        "0.2": {
+          "--gaker19-brightness-bg": [
+            "0.2",
+            "bigpicture"
+          ]
+        },
+        "0.4": {
+          "--gaker19-brightness-bg": [
+            "0.4",
+            "bigpicture"
+          ]
+        },
+        "0.6": {
+          "--gaker19-brightness-bg": [
+            "0.6",
+            "bigpicture"
+          ]
+        },
+        "0.8": {
+          "--gaker19-brightness-bg": [
+            "0.8",
+            "bigpicture"
+          ]
+        },
+        "1": {
+          "--gaker19-brightness-bg": [
+            "1",
+            "bigpicture"
+          ]
+        },
+        "1.2": {
+          "--gaker19-brightness-bg": [
+            "1.2",
+            "bigpicture"
+          ]
+        },
+        "1.4": {
+          "--gaker19-brightness-bg": [
+            "1.4",
+            "bigpicture"
+          ]
+        },
+        "1.6": {
+          "--gaker19-brightness-bg": [
+            "1.6",
+            "bigpicture"
+          ]
+        },
+        "1.8": {
+          "--gaker19-brightness-bg": [
+            "1.8",
+            "bigpicture"
+          ]
+        },
+        "2": {
+          "--gaker19-brightness-bg": [
+            "2",
+            "bigpicture"
+          ]
+        }
+      }
+    }
+  },
+  "id": "08d06979-67a3-4d02-83d4-d3d478ee2886"
+}

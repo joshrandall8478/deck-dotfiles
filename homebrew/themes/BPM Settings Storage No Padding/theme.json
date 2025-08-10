@@ -1,0 +1,13 @@
+{
+  "name": "BPM Settings Storage No Padding",
+  "version": "c550",
+  "inject": {
+    "shared.css": [
+      "QuickAccess",
+      "SP",
+      "MainMenu"
+    ]
+  },
+  "author": "Such Meme, Many Skill#2921",
+  "id": "78226c1c-51ed-468e-997b-1b9f01c764d0"
+}
