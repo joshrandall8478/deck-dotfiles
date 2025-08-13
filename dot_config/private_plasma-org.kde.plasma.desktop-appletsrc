@@ -18,18 +18,18 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][1][ConfigDialog]
-DialogHeight=726
-DialogWidth=1280
+DialogHeight=540
+DialogWidth=720
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=259
-positions={"1280x800":["2"\\,"11"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"1"\\,"1"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"\\,"desktop:/com.termius.Termius.desktop"\\,"1"\\,"0"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"1"\\,"3"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/update-sdgyrodsu.desktop"\\,"1"\\,"2"]\\,"1920x1080":["1"\\,"17"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"0"\\,"12"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"\\,"desktop:/com.termius.Termius.desktop"\\,"0"\\,"11"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"0"\\,"14"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/update-sdgyrodsu.desktop"\\,"0"\\,"13"]\\,"1280x720":[""]\\,"1680x1050":[""]\\,"800x1280":[""]}
+positions={"1280x800":["2"\\,"11"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/com.termius.Termius.desktop"\\,"1"\\,"0"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"1"\\,"1"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"1"\\,"3"\\,"desktop:/update-sdgyrodsu.desktop"\\,"1"\\,"2"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"]\\,"1920x1080":["1"\\,"17"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/com.termius.Termius.desktop"\\,"0"\\,"11"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"0"\\,"12"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"0"\\,"14"\\,"desktop:/update-sdgyrodsu.desktop"\\,"0"\\,"13"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"]\\,"1280x720":[""]\\,"1680x1050":[""]\\,"800x1280":[""]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Steam Deck Logo 5.jpg
-PreviewImage=/usr/share/wallpapers/Steam Deck Logo 5.jpg
+Image=/usr/share/wallpapers/Steam Deck Logo 11.jpg
+PreviewImage=/usr/share/wallpapers/Steam Deck Logo 11.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -105,8 +105,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=609
-popupWidth=748
+popupHeight=610
+popupWidth=773
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -115,6 +115,7 @@ DialogWidth=720
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 icon=distributor-logo-steamdeck
+paneSwap=true
 primaryActions=3
 showActionButtonCaptions=false
 systemFavorites=lock-screen\\,logout\\,save-session\\,switch-user\\,suspend\\,hibernate\\,reboot\\,shutdown
@@ -310,4 +311,4 @@ scaleIconsToFit=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/org.prismlauncher.PrismLauncher.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/btop.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.termius.Termius.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/uninstall-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.github._0negal.Viper.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/steam.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.davidotek.pupgui2.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/1.21.8 controller.zip,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/update-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.discordapp.Discord.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.konsole.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/EmuDeck.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.lutris.Lutris.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.discover.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb
+screenMapping=desktop:/com.github._0negal.Viper.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.discover.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.discordapp.Discord.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.davidotek.pupgui2.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/steam.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/1.21.8 controller.zip,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/btop.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.lutris.Lutris.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.termius.Termius.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/uninstall-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.konsole.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/update-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/EmuDeck.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.prismlauncher.PrismLauncher.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb
