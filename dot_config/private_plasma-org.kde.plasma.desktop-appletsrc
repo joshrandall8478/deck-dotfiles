@@ -107,7 +107,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=594
+popupHeight=595
 popupWidth=1074
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
@@ -152,6 +152,11 @@ plugin=org.kde.plasma.panelspacer
 [Containments][2][Applets][36]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][2][Applets][36][Configuration]
+PreloadWeight=55
+popupHeight=360
+popupWidth=360
 
 [Containments][2][Applets][5]
 immutability=1
@@ -203,7 +208,7 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=480
+popupHeight=481
 popupWidth=632
 wallpaperplugin=org.kde.image
 
@@ -255,7 +260,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][8][Applets][18]
@@ -333,6 +337,7 @@ DialogWidth=720
 [Containments][8][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager
 hiddenItems=org.kde.plasma.vault
+iconSpacing=1
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager
 scaleIconsToFit=true
 
