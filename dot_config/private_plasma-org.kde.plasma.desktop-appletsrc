@@ -24,7 +24,7 @@ DialogWidth=720
 [Containments][1][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=259
-positions={"1280x800":["2"\\,"11"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/com.termius.Termius.desktop"\\,"1"\\,"0"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"1"\\,"1"\\,"desktop:/update-sdgyrodsu.desktop"\\,"1"\\,"2"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"1"\\,"3"]\\,"1920x1080":["1"\\,"17"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/com.termius.Termius.desktop"\\,"0"\\,"11"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"0"\\,"12"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"0"\\,"14"\\,"desktop:/update-sdgyrodsu.desktop"\\,"0"\\,"13"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"]\\,"1280x720":[""]\\,"1680x1050":[""]\\,"800x1280":[""]}
+positions={"1280x800":["2"\\,"11"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/org.localsend.localsend_app.desktop"\\,"1"\\,"4"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"1"\\,"3"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/com.termius.Termius.desktop"\\,"1"\\,"0"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/update-sdgyrodsu.desktop"\\,"1"\\,"2"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"1"\\,"1"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"]\\,"1920x1080":["1"\\,"17"\\,"desktop:/com.termius.Termius.desktop"\\,"0"\\,"11"\\,"desktop:/org.kde.discover.desktop"\\,"0"\\,"3"\\,"desktop:/btop.desktop"\\,"0"\\,"1"\\,"desktop:/1.21.8 controller.zip"\\,"0"\\,"0"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"8"\\,"desktop:/Return.desktop"\\,"0"\\,"9"\\,"desktop:/steam.desktop"\\,"0"\\,"10"\\,"desktop:/uninstall-sdgyrodsu.desktop"\\,"0"\\,"12"\\,"desktop:/org.kde.konsole.desktop"\\,"0"\\,"5"\\,"desktop:/update-sdgyrodsu.desktop"\\,"0"\\,"13"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"4"\\,"desktop:/com.discordapp.Discord.desktop"\\,"0"\\,"2"\\,"desktop:/org.prismlauncher.PrismLauncher.desktop"\\,"0"\\,"7"\\,"desktop:/net.lutris.Lutris.desktop"\\,"0"\\,"6"\\,"desktop:/com.github._0negal.Viper.desktop"\\,"0"\\,"14"]\\,"1280x720":[""]\\,"1680x1050":[""]\\,"800x1280":[""]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -105,7 +105,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=611
+popupHeight=628
 popupWidth=773
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
@@ -125,6 +125,31 @@ global=Alt+F1
 [Containments][2][Applets][3][Shortcuts]
 global=Alt+F1
 
+[Containments][2][Applets][32]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][2][Applets][32][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][32][Configuration][General]
+displayedText=Number
+showOnlyCurrentScreen=true
+showWindowIcons=true
+
+[Containments][2][Applets][33]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][34]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][36]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -135,7 +160,7 @@ DialogWidth=880
 
 [Containments][2][Applets][5][Configuration][General]
 indicateAudioStreams=false
-launchers=applications:app.zen_browser.zen.desktop,applications:steam.desktop,preferred://filemanager,applications:org.kde.konsole.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,file:///var/lib/flatpak/exports/share/applications/com.spotify.Client.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:org.kde.spectacle.desktop
+launchers=applications:app.zen_browser.zen.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,preferred://filemanager,file:///var/lib/flatpak/exports/share/applications/com.spotify.Client.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:org.kde.spectacle.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -154,7 +179,7 @@ DialogHeight=93
 DialogWidth=1280
 
 [Containments][2][General]
-AppletOrder=3;5;6;7;27;19;20
+AppletOrder=3;5;33;32;34;6;36;7;27;19;20
 
 [Containments][25]
 activityId=e19897ef-c70c-4387-8493-4bf4f362fdbb
@@ -175,7 +200,7 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=473
+popupHeight=480
 popupWidth=632
 wallpaperplugin=org.kde.image
 
@@ -274,7 +299,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][26][Configuration]
-PreloadWeight=9
+PreloadWeight=0
 
 [Containments][8][Applets][29]
 immutability=1
@@ -289,25 +314,25 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][8][Applets][9][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][8][ConfigDialog]
-DialogHeight=660
-DialogWidth=880
+DialogHeight=540
+DialogWidth=720
 
 [Containments][8][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager
+extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager
 hiddenItems=org.kde.plasma.vault
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager
 scaleIconsToFit=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/EmuDeck.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/update-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.lutris.Lutris.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.discover.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/1.21.8 controller.zip,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.termius.Termius.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.davidotek.pupgui2.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/steam.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/uninstall-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.prismlauncher.PrismLauncher.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.discordapp.Discord.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.konsole.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.github._0negal.Viper.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/btop.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb
+screenMapping=desktop:/steam.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.github._0negal.Viper.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/update-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.discover.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/1.21.8 controller.zip,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.termius.Termius.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/uninstall-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.davidotek.pupgui2.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/EmuDeck.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.discordapp.Discord.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.konsole.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.lutris.Lutris.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.prismlauncher.PrismLauncher.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.localsend.localsend_app.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/btop.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb
