@@ -1,5 +1,5 @@
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
-
+alias code="flatpak run com.visualstudio.code"
 
 
 

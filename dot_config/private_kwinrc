@@ -4,7 +4,8 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 [Desktops]
 Id_1=11c0c72a-8197-435c-ab3d-b97da033c096
 Id_2=5afb81b5-ecb3-4170-b853-55a01dead7eb
-Number=2
+Id_3=929e2dc1-9ed1-43eb-af6c-14fe2e61e562
+Number=3
 Rows=1
 
 [Effect-magiclamp]

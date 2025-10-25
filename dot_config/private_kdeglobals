@@ -110,8 +110,15 @@ ForegroundVisited=127,140,141
 [General]
 AccentColor=61,174,233
 BrowserApplication=com.brave.Browser.desktop
+ColorScheme=Vapor
 ColorSchemeHash=465905853f7b01f63a484474722a441d99e2a157
 LastUsedCustomAccentColor=61,174,233
+XftHintStyle=hintslight
+XftSubPixel=rgb
+font=Poppins,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Poppins,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Poppins,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Poppins,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
 Theme=Papirus-Dark
@@ -122,7 +129,7 @@ ShowDeleteCommand=false
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
@@ -148,6 +155,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=36,39,47
 activeBlend=255,255,255
+activeFont=Poppins,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=239,240,241
 inactiveBackground=36,39,44
 inactiveBlend=74,83,101

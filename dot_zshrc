@@ -177,6 +177,7 @@ alias vc='code' # gui code editor
 #fi
 
 #eval "$(zoxide init zsh)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 fastfetch -c ~/smallfetch-deck.jsonc
 alias smallfetch="fastfetch -c ~/smallfetch-deck.jsonc"
@@ -212,3 +213,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 #source ~/bira.zsh-theme
+alias code="flatpak run com.visualstudio.code"
+
+
