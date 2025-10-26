@@ -177,10 +177,20 @@ alias vc='code' # gui code editor
 #fi
 
 #eval "$(zoxide init zsh)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+homebrew_path="/home/linuxbrew/.linuxbrew/bin/brew"
+if [ -e "$homebrew_path" ]; then
+	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+else
+	echo "Homebrew is not installed"
+fi
 
-fastfetch -c ~/smallfetch-deck.jsonc
-alias smallfetch="fastfetch -c ~/smallfetch-deck.jsonc"
+
+if command_output=$(cat /etc/os-release| grep -i "SteamOS"); then
+        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+        fastfetch -c ~/smallfetch-deck.jsonc
+    else
+        fastfetch -c ~/smallfetch.jsonc
+fi
 #smallfetch
 #fortune -s -n 100
 
