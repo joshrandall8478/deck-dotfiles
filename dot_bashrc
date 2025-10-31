@@ -9,4 +9,5 @@ if command_output=$(cat /etc/os-release| grep -i "SteamOS"); then
     else
 	fastfetch -c ~/smallfetch.jsonc
 fi
- 
+
+eval "$(starship init bash)"
