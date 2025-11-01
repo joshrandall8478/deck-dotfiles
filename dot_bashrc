@@ -5,9 +5,9 @@ alias code="flatpak run com.visualstudio.code"
 
 if command_output=$(cat /etc/os-release| grep -i "SteamOS"); then
 	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-	fastfetch -c ~/smallfetch-deck.jsonc
+	fastfetch -c ~/.smallfetch-deck.jsonc
     else
-	fastfetch -c ~/smallfetch.jsonc
+	fastfetch -c ~/.smallfetch.jsonc
 fi
 
 eval "$(starship init bash)"
