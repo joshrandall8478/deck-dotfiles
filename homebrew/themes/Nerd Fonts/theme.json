@@ -1,7 +1,7 @@
 {
   "name": "Nerd Fonts",
   "author": "dankutron9000",
-  "version": "v1.0",
+  "version": "v1.1",
   "manifest_version": 8,
   "inject": {},
   "patches": {
@@ -53,6 +53,13 @@
         },
         "Iosevka": {
           "font-css/Iosevka.css": [
+            "bigpicture",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "JetBrainsMonoNerdFontMono-Regular": {
+          "font-css/JetBrainsMonoNerdFontMono-Regular.css": [
             "bigpicture",
             "MainMenu",
             "QuickAccess"

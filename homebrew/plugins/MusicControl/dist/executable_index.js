@@ -156,7 +156,7 @@
       return (window.SP_REACT.createElement(deckyFrontendLib.ButtonItem, { layout: "below", bottomSeparator: 'none', onClick: onClickInfo }, "Info"));
   };
 
-  var default_music = 'http://127.0.0.1:1337/plugins/MusicControl/assets/default_music-de70c8a5.png';
+  var default_music = 'http://127.0.0.1:1337/plugins/Music Control/assets/default_music-de70c8a5.png';
 
   const defaultState = {
       hasChangedPlaybackState: false,
@@ -536,16 +536,19 @@
               return provider.replace("org.mpris.MediaPlayer2.", "");
           return state.providersToIdentity[providerIndex].name;
       };
-      const handleOnClick = (e) => deckyFrontendLib.showContextMenu(window.SP_REACT.createElement(deckyFrontendLib.Menu, { label: "Select Media Player", cancelText: "Cancel" }, state.providers.map((provider) => {
-          return (window.SP_REACT.createElement(deckyFrontendLib.MenuItem, { onSelected: () => {
-                  setMediaPlayer(provider);
-                  dispatch({
-                      type: AppActions.SetCurrentServiceProvider,
-                      value: provider,
-                  });
-              } }, getDisplayNameForProvider(provider)));
-      })), e.currentTarget ?? window);
-      return (window.SP_REACT.createElement(deckyFrontendLib.ButtonItem, { layout: "below", bottomSeparator: 'none', onClick: handleOnClick }, props.currentProvider == ""
+      const handleOnClick = () => {
+          if (state.providers.length === 0)
+              return;
+          const currentIndex = state.providers.findIndex(p => p === props.currentProvider);
+          const nextIndex = (currentIndex + 1) % state.providers.length;
+          const nextProvider = state.providers[nextIndex];
+          setMediaPlayer(nextProvider);
+          dispatch({
+              type: AppActions.SetCurrentServiceProvider,
+              value: nextProvider,
+          });
+      };
+      return (window.SP_REACT.createElement(deckyFrontendLib.ButtonItem, { layout: "below", bottomSeparator: 'none', onClick: handleOnClick, disabled: state.providers.length <= 1 }, props.currentProvider == ""
           ? "No Media Player Found"
           : getDisplayNameForProvider(props.currentProvider)));
   };
