@@ -20,7 +20,10 @@
         "PowerTools",
         "MagicPods",
         "BT Wake Control",
-        "Wine Cellar"
+        "Wine Cellar",
+        "Tailscale Control",
+        "Syncthing",
+        "Pause Games"
     ],
     "user_info.user_name": "deck",
     "user_info.user_home": "/home/deck",
