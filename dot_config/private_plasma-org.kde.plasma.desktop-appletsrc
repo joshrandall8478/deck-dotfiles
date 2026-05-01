@@ -64,7 +64,7 @@ DialogWidth=880
 
 [Containments][2][Applets][27][Configuration][General]
 labelWidth=0
-positions={"1920x1080":[]\\,"1280x800":[]\\,"3840x2160":[""]\\,"1536x864":[]\\,"1024x640":[]}
+positions={"1920x1080":[]\\,"1280x800":[]\\,"3840x2160":[""]\\,"1536x864":[]\\,"1024x640":[]\\,"640x480":[]\\,"2560x1440":[""]}
 sortDesc=true
 sortDirsFirst=false
 sortMode=2
@@ -80,8 +80,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=593
-popupWidth=961
+popupHeight=559
+popupWidth=861
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -128,7 +128,7 @@ plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][36][Configuration]
 PreloadWeight=100
-popupHeight=366
+popupHeight=368
 popupWidth=557
 
 [Containments][2][Applets][5]
@@ -141,7 +141,7 @@ DialogWidth=880
 
 [Containments][2][Applets][5][Configuration][General]
 indicateAudioStreams=false
-launchers=applications:app.zen_browser.zen.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,preferred://filemanager,applications:com.spotify.Client.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:org.kde.spectacle.desktop
+launchers=applications:com.vivaldi.Vivaldi.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,preferred://filemanager,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:com.spotify.Client.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:org.kde.spectacle.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -162,13 +162,12 @@ DialogWidth=1280
 [Containments][2][General]
 AppletOrder=3;5;33;32;34;6;36;7;27;19;20
 
-[Containments][37]
-ItemGeometries-1024x640=
+[Containments][39]
 ItemGeometries-1280x800=
-ItemGeometries-1536x864=
 ItemGeometries-1920x1080=
+ItemGeometries-640x480=
 ItemGeometriesHorizontal=
-activityId=ebac362a-ef30-4fd4-90b1-b974bfaa5ec2
+activityId=2e9e439b-891e-4796-8e7b-7224172f7fe8
 formfactor=0
 immutability=1
 lastScreen=0
@@ -176,21 +175,21 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][37][ConfigDialog]
+[Containments][39][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][37][General]
-positions={"1280x800":["1"\\,"11"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"0"\\,"desktop:/steam.desktop"\\,"0"\\,"3"\\,"desktop:/net.davidotek.pupgui2.desktop"\\,"0"\\,"1"\\,"desktop:/Return.desktop"\\,"0"\\,"2"]}
+[Containments][39][General]
+positions={"1280x800":["1"\\,"11"\\,"desktop:/Return.desktop"\\,"0"\\,"2"\\,"desktop:/steam.desktop"\\,"0"\\,"3"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"0"\\,"desktop:/com.github.iwalton3.jellyfin-media-player.desktop"\\,"0"\\,"1"]\\,"1920x1080":["1"\\,"17"\\,"desktop:/Return.desktop"\\,"0"\\,"2"\\,"desktop:/EmuDeck.desktop"\\,"0"\\,"0"\\,"desktop:/com.github.iwalton3.jellyfin-media-player.desktop"\\,"0"\\,"1"\\,"desktop:/steam.desktop"\\,"0"\\,"3"]\\,"640x480":[]\\,"2560x1440":[""]}
 sortMode=-1
 
-[Containments][37][Wallpaper][org.kde.image][General]
-Image=/home/deck/projects/dotfiles/dot_local/share/wallpapers/bell-beast.png
-PreviewImage=/usr/share/wallpapers/Steam Deck Logo 5.jpg
-SlidePaths=/usr/share/wallpapers/
+[Containments][39][Wallpaper][org.kde.image][General]
+Image=/home/deck/.local/share/wallpapers/older-mac.jpg
+PreviewImage=/home/deck/.local/share/wallpapers/older-mac.jpg
+SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
 
-[Containments][38]
-activityId=ebac362a-ef30-4fd4-90b1-b974bfaa5ec2
+[Containments][40]
+activityId=2e9e439b-891e-4796-8e7b-7224172f7fe8
 formfactor=0
 immutability=1
 lastScreen=1
@@ -198,8 +197,8 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][38][Wallpaper][org.kde.image][General]
-Image=/home/deck/projects/dotfiles/dot_local/share/wallpapers/bell-beast.png
+[Containments][40][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Steam Deck Logo Default.jpg
 
 [Containments][8]
 activityId=
@@ -208,7 +207,7 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=495
+popupHeight=507
 popupWidth=632
 wallpaperplugin=org.kde.image
 
@@ -321,7 +320,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=70
+PreloadWeight=80
 
 [Containments][8][Applets][9]
 immutability=1
@@ -343,4 +342,4 @@ scaleIconsToFit=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/btop.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/steam.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.konsole.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/EmuDeck.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.github._0negal.Viper.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.prismlauncher.PrismLauncher.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2,desktop:/update-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.discover.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/EmuDeck.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2,desktop:/com.termius.Termius.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/uninstall-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/1.21.8 controller.zip,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.davidotek.pupgui2.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.github.iwalton3.jellyfin-media-player.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.discordapp.Discord.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.lutris.Lutris.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.davidotek.pupgui2.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2,desktop:/org.localsend.localsend_app.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/steam.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2
+screenMapping=desktop:/net.davidotek.pupgui2.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2,desktop:/steam.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/com.github._0negal.Viper.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.prismlauncher.PrismLauncher.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.davidotek.pupgui2.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/update-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/steam.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2,desktop:/1.21.8 controller.zip,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/EmuDeck.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.konsole.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.kde.discover.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/uninstall-sdgyrodsu.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.termius.Termius.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/EmuDeck.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2,desktop:/com.github.iwalton3.jellyfin-media-player.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/net.lutris.Lutris.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/com.github.iwalton3.jellyfin-media-player.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/com.discordapp.Discord.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/org.localsend.localsend_app.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/Return.desktop,0,ebac362a-ef30-4fd4-90b1-b974bfaa5ec2,desktop:/btop.desktop,0,e19897ef-c70c-4387-8493-4bf4f362fdbb,desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8

@@ -3,7 +3,7 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Desktops]
 Id_1=11c0c72a-8197-435c-ab3d-b97da033c096
-Id_2=110a93d5-7feb-493d-aef2-d303ab0c58cf
+Id_2=af59cdb6-7853-4922-a33c-344d6781d6fb
 Number=2
 Rows=1
 
@@ -44,6 +44,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][73abeab6-f73c-5179-a3d2-7f2ac1554c89]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][836f5248-5d9b-5419-a894-dca8846eb6ec]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][8d7e5de6-4080-5934-a066-b9e84d4151cf]

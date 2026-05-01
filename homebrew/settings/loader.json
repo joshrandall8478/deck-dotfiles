@@ -3,27 +3,23 @@
     "pluginOrder": [
         "Music Control",
         "Volume Mixer",
-        "Pause Games",
+        "Discord Status",
         "BT Wake Control",
         "PowerTools",
-        "Storage Cleaner",
+        "Wine Cellar",
         "Animation Changer",
         "Audio Loader",
-        "Syncthing",
+        "Controller Tools",
         "Tailscale Control",
         "ProtonDB Badges",
-        "SteamGridDB",
-        "CSS Loader",
-        "MagicPods",
-        "Wine Cellar",
-        "Simple Timer"
+        "Shotty",
+        "CSS Loader"
     ],
     "user_info.user_name": "deck",
     "user_info.user_home": "/home/deck",
     "store": 0,
     "developer.enabled": true,
     "hiddenPlugins": [
-        "ProtonDB Badges",
-        "SteamGridDB"
+        "Shotty"
     ]
 }
