@@ -1,21 +1,66 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-2e9e439b-891e-4796-8e7b-7224172f7fe8=none,none,Switch to activity "Default"
-switch-to-activity-e19897ef-c70c-4387-8493-4bf4f362fdbb=none,none,Switch to activity "Default"
-switch-to-activity-ebac362a-ef30-4fd4-90b1-b974bfaa5ec2=none,none,Switch to activity "Default"
+switch-to-activity-a6337a69-a4b7-475a-9d32-b6e08b186c4f=none,none,Switch to activity "lock in"
+switch-to-activity-c91d0bc0-2618-4ec0-945f-b2599e8e8166=none,none,Switch to activity "Default"
+switch-to-activity-e84c4d3c-b7e0-4ed0-90e1-091d5ebfb63a=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[com.brave.Browser]
+2C0EA47848E4F73B3EC36F4E8F7A25E5-autofill_card=none,none,Autofill the last used card for the current website
+2C0EA47848E4F73B3EC36F4E8F7A25E5-autofill_identity=none,none,Autofill the last used identity for the current website
+2C0EA47848E4F73B3EC36F4E8F7A25E5-autofill_login=none,none,Autofill the last used login for the current website
+2C0EA47848E4F73B3EC36F4E8F7A25E5-generate_password=none,none,Generate and copy a new random password to the clipboard
+2C0EA47848E4F73B3EC36F4E8F7A25E5-lock_vault=none,none,Lock the vault
+994396A22EF4567EF143C25FBD5DCB7A-c000-options-page=none,none,Open the options page
+994396A22EF4567EF143C25FBD5DCB7A-c020-theme-youtube-dark=none,none,Theme: YouTube™ (Dark)
+994396A22EF4567EF143C25FBD5DCB7A-c025-theme-enhanced-dark=none,none,Theme: Enhancer for YouTube™
+994396A22EF4567EF143C25FBD5DCB7A-c030-theme-youtube-deep-dark=none,none,Theme: YouTube-DeepDark
+994396A22EF4567EF143C25FBD5DCB7A-c040-theme-youtube-deep-dark-custom=none,none,Theme: YouTube-DeepDark (Custom)
+994396A22EF4567EF143C25FBD5DCB7A-c050-theme-custom-theme=none,none,Theme: Custom theme
+994396A22EF4567EF143C25FBD5DCB7A-c060-focus-video-player=none,none,Set focus on the video player
+994396A22EF4567EF143C25FBD5DCB7A-c070-toggle-loop=none,none,Toggle the loop mode
+994396A22EF4567EF143C25FBD5DCB7A-c080-stop-video=none,none,Stop the video
+994396A22EF4567EF143C25FBD5DCB7A-c090-reverse-playlist=none,none,Reverse the playlist order
+994396A22EF4567EF143C25FBD5DCB7A-c100-toggle-volume-booster=none,none,Toggle the volume booster
+994396A22EF4567EF143C25FBD5DCB7A-c130-toggle-annotations=none,none,Toggle info cards and end screens visibility
+994396A22EF4567EF143C25FBD5DCB7A-c140-toggle-cinema-mode=none,none,Toggle the cinema mode
+994396A22EF4567EF143C25FBD5DCB7A-c150-toggle-player-size=none,none,Expand or shrink the video player
+994396A22EF4567EF143C25FBD5DCB7A-c160-center-video-player=none,none,Center the video player within the viewport
+994396A22EF4567EF143C25FBD5DCB7A-c170-pop-up-player=none,none,Watch with the pop-up player
+994396A22EF4567EF143C25FBD5DCB7A-c180-decrease-speed=none,none,Decrease the playback speed
+994396A22EF4567EF143C25FBD5DCB7A-c190-increase-speed=none,none,Increase the playback speed
+994396A22EF4567EF143C25FBD5DCB7A-c200-default-speed=none,none,Select the default playback speed
+994396A22EF4567EF143C25FBD5DCB7A-c210-normal-speed=none,none,Select the normal playback speed
+994396A22EF4567EF143C25FBD5DCB7A-c220-toggle-video-filters=none,none,Toggle the video filters
+994396A22EF4567EF143C25FBD5DCB7A-c230-flip-horizontally=none,none,Flip the video horizontally
+994396A22EF4567EF143C25FBD5DCB7A-c240-flip-vertically=none,none,Flip the video vertically
+994396A22EF4567EF143C25FBD5DCB7A-c250-take-screenshot=none,none,Take a screenshot of the video
+994396A22EF4567EF143C25FBD5DCB7A-c260-keyboard-shortcuts=none,none,Display all the keyboard shortcuts for YouTube
+994396A22EF4567EF143C25FBD5DCB7A-c270-custom-script=none,none,Execute the custom script
+994396A22EF4567EF143C25FBD5DCB7A-c280-picture-in-picture=none,none,Toggle the Picture-in-Picture mode
+994396A22EF4567EF143C25FBD5DCB7A-c290-quality-highres=none,none,Select the playback quality “4320p”
+994396A22EF4567EF143C25FBD5DCB7A-c300-quality-hd2880=none,none,Select the playback quality “2880p”
+994396A22EF4567EF143C25FBD5DCB7A-c310-quality-hd2160=none,none,Select the playback quality “2160p”
+994396A22EF4567EF143C25FBD5DCB7A-c320-quality-hd1440=none,none,Select the playback quality “1440p”
+994396A22EF4567EF143C25FBD5DCB7A-c330-quality-hd1080=none,none,Select the playback quality “1080p”
+994396A22EF4567EF143C25FBD5DCB7A-c340-quality-hd720=none,none,Select the playback quality “720p”
+994396A22EF4567EF143C25FBD5DCB7A-c350-quality-large=none,none,Select the playback quality “480p”
+994396A22EF4567EF143C25FBD5DCB7A-c360-quality-medium=none,none,Select the playback quality “360p”
+994396A22EF4567EF143C25FBD5DCB7A-c370-quality-small=none,none,Select the playback quality “240p”
+994396A22EF4567EF143C25FBD5DCB7A-c380-quality-tiny=none,none,Select the playback quality “144p”
+994396A22EF4567EF143C25FBD5DCB7A-c390-quality-auto=none,none,Select the playback quality “Auto”
+994396A22EF4567EF143C25FBD5DCB7A-c400-comments-visibility=none,none,Toggle comments visibility
+994396A22EF4567EF143C25FBD5DCB7A-c410-related-videos-visibility=none,none,Toggle related videos visibility
+_k_friendly_name=Brave
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
-
-[khotkeys]
-_k_friendly_name=Custom Shortcuts Service
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -27,10 +72,16 @@ increase_volume=Volume Up,Volume Up,Increase Volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Increase Volume by 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
+push_to_talk=none,none,Push to talk
+
+[konversation]
+_k_friendly_name=Konversation
+next_active_tab=none,none,Next Active Tab
+toggle_mainwindow_visibility=none,none,Show/Hide Konversation
 
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
-Lock Session=Meta+L\tScreensaver,none,Lock Session
+Lock Session=Screensaver\tMeta+L,Screensaver\tMeta+L,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Log Out Without Confirmation
 LogOut=none,,Log Out
@@ -41,17 +92,21 @@ _k_friendly_name=Session Management
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
+ClearLastMouseMark=Meta+Shift+F12,Meta+Shift+F12,Clear Last Mouse Mark
+ClearMouseMarks=Meta+Shift+F11,Meta+Shift+F11,Clear Mouse Marks
+Cube=Meta+C,Meta+C,Toggle Cube
 Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+T,Meta+T,Toggle Tiles Editor
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeAll=Launch (C)\tCtrl+F10,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
+Move Tablet to Next LogicalOutput=none,none,Move the tablet to the next output
 Move Tablet to Next Output=none,none,Move the tablet to the next output
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
@@ -59,10 +114,9 @@ MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
-Overview=Meta+W,Meta+W,Toggle Overview
+Overview=Meta+W\tMeta+Tab,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Peek at Desktop
-Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
 Switch One Desktop Up=Meta+Ctrl+Up,Meta+Ctrl+Up,Switch One Desktop Up
 Switch One Desktop to the Left=Meta+Ctrl+Left,Meta+Ctrl+Left,Switch One Desktop to the Left
@@ -84,6 +138,11 @@ Switch to Desktop 18=none,,Switch to Desktop 18
 Switch to Desktop 19=none,,Switch to Desktop 19
 Switch to Desktop 2=Ctrl+F2,Ctrl+F2,Switch to Desktop 2
 Switch to Desktop 20=none,,Switch to Desktop 20
+Switch to Desktop 21=none,none,Switch to Desktop 21
+Switch to Desktop 22=none,none,Switch to Desktop 22
+Switch to Desktop 23=none,none,Switch to Desktop 23
+Switch to Desktop 24=none,none,Switch to Desktop 24
+Switch to Desktop 25=none,none,Switch to Desktop 25
 Switch to Desktop 3=Ctrl+F3,Ctrl+F3,Switch to Desktop 3
 Switch to Desktop 4=Ctrl+F4,Ctrl+F4,Switch to Desktop 4
 Switch to Desktop 5=none,,Switch to Desktop 5
@@ -110,7 +169,7 @@ Switch to Screen to the Right=none,,Switch to Screen to the Right
 Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 Walk Through Windows=Alt+Tab,Meta+Tab\tAlt+Tab,Walk Through Windows
-Walk Through Windows (Reverse)=Alt+Shift+Backtab,Meta+Shift+Tab\tAlt+Shift+Tab,Walk Through Windows (Reverse)
+Walk Through Windows (Reverse)=Alt+Shift+Tab,Meta+Shift+Tab\tAlt+Shift+Tab,Walk Through Windows (Reverse)
 Walk Through Windows Alternative=none,none,Walk Through Windows Alternative
 Walk Through Windows Alternative (Reverse)=none,none,Walk Through Windows Alternative (Reverse)
 Walk Through Windows of Current Application=Alt+`,Meta+`\tAlt+`,Walk Through Windows of Current Application
@@ -159,6 +218,7 @@ Window Quick Tile Top Left=none,,Quick Tile Window to the Top Left
 Window Quick Tile Top Right=none,,Quick Tile Window to the Top Right
 Window Raise=none,,Raise Window
 Window Resize=none,,Resize Window
+Window Restore=Meta+Backspace,Meta+Backspace,Restore Window
 Window Shade=none,,Shade Window
 Window Shrink Horizontal=none,,Shrink Window Horizontally
 Window Shrink Vertical=none,,Shrink Window Vertically
@@ -175,6 +235,11 @@ Window to Desktop 18=none,,Window to Desktop 18
 Window to Desktop 19=none,,Window to Desktop 19
 Window to Desktop 2=none,,Window to Desktop 2
 Window to Desktop 20=none,,Window to Desktop 20
+Window to Desktop 21=none,none,Window to Desktop 21
+Window to Desktop 22=none,none,Window to Desktop 22
+Window to Desktop 23=none,none,Window to Desktop 23
+Window to Desktop 24=none,none,Window to Desktop 24
+Window to Desktop 25=none,none,Window to Desktop 25
 Window to Desktop 3=none,,Window to Desktop 3
 Window to Desktop 4=none,,Window to Desktop 4
 Window to Desktop 5=none,,Window to Desktop 5
@@ -209,7 +274,24 @@ pausemedia=Media Pause,Media Pause,Pause media playback
 playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
+seekbackwardmedia=Media Rewind,Media Rewind,Media playback seek backward 5s
+seekbackwardmedialong=none,none,Media playback seek backward 30s
+seekforwardmedia=Media Fast Forward,Media Fast Forward,Media playback seek forward 5s
+seekforwardmedialong=none,none,Media playback seek forward 30s
 stopmedia=Media Stop,Media Stop,Stop media playback
+
+[org.chromium.Chromium]
+72A6F797CC022796EF9FF07D55D7DFAE-autofill_card=none,none,Autofill the last used card for the current website
+72A6F797CC022796EF9FF07D55D7DFAE-autofill_identity=none,none,Autofill the last used identity for the current website
+72A6F797CC022796EF9FF07D55D7DFAE-autofill_login=none,none,Autofill the last used login for the current website
+72A6F797CC022796EF9FF07D55D7DFAE-generate_password=none,none,Generate and copy a new random password to the clipboard
+72A6F797CC022796EF9FF07D55D7DFAE-lock_vault=none,none,Lock the vault
+8104F0CAAE949C5BE38D9E35CA65AD42-autofill_card=none,none,Autofill the last used card for the current website
+8104F0CAAE949C5BE38D9E35CA65AD42-autofill_identity=none,none,Autofill the last used identity for the current website
+8104F0CAAE949C5BE38D9E35CA65AD42-autofill_login=none,none,Autofill the last used login for the current website
+8104F0CAAE949C5BE38D9E35CA65AD42-generate_password=none,none,Generate and copy a new random password to the clipboard
+8104F0CAAE949C5BE38D9E35CA65AD42-lock_vault=none,none,Lock the vault
+_k_friendly_name=org.chromium.Chromium
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -228,8 +310,13 @@ _k_friendly_name=Power Management
 powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
+Slideshow Wallpaper Next Image=none,none,Next Wallpaper Image
+Toggle Bigscreen Home Overlay=Meta+O,Meta+O,Toggle Bigscreen Home Overlay
+Toggle Bigscreen Home Screen=Home Page,Home Page,Toggle Bigscreen Home Screen
+Toggle Bigscreen Settings=Settings,Settings,Toggle Bigscreen Settings
+Toggle Bigscreen Tasks Overview=Menu,Menu,Toggle Bigscreen Tasks Overview
 _k_friendly_name=plasmashell
-activate application launcher=Meta,Meta\tAlt+F1,Activate Application Launcher
+activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -240,7 +327,11 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
-activate widget 3=Alt+F1,none,Activate Application Launcher Widget
+activate widget 1=Meta+F1,none,Activate Plasma Bigscreen Homescreen Widget
+activate widget 127=none,none,Activate Window List Widget
+activate widget 81=none,none,Activate Pager Widget
+activate widget 91=none,none,Activate Application Launcher Widget
+clear history=none,none,Clear Notification History
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
@@ -250,7 +341,7 @@ edit_clipboard=none,,Edit Contents…
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+A,none,Walk through activities
 previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
-repeat_action=Meta+Ctrl+R,,Manually Invoke Action on Current Clipboard
+repeat_action=none,,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
 show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
@@ -259,8 +350,25 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][org.kde.konsole.desktop]
-NewWindow=Meta+Return
+[services][app.zen_browser.zen.desktop]
+new-window=Tools
 
-[services][org.kde.spectacle.desktop]
-RecordWindow=none
+[services][kitty.desktop]
+_launch=Launch (5)\tMeta+Return
+
+[services][org.kde.dolphin.desktop]
+_launch=Launch (6)\tMeta+E
+
+[services][systemsettings.desktop]
+_launch=Launch (7)
+
+[wacomtablet]
+Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
+Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Map to screen 1
+Map to screen 2=Meta+Ctrl+2,Meta+Ctrl+2,Map to screen 2
+Next Profile=Meta+Ctrl+N,Meta+Ctrl+N,Next profile
+Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Previous Profile
+Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Toggle between all screens
+Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
+Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
+_k_friendly_name=Wacom Tablet

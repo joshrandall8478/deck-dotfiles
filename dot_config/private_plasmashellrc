@@ -1,27 +1,104 @@
-[FileDialogSize]
-1280x800 screen: Height=722
-1280x800 screen: Width=1076
+[Applets][1]
+activityId=e84c4d3c-b7e0-4ed0-90e1-091d5ebfb63a
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.bigscreen.homescreen
+wallpaperplugin=org.kde.image
 
-[KFileDialog Settings][$i]
-Recent Files[$ie]=1vdkzn4q8n9e1.jpeg,file:$HOME/Downloads/1vdkzn4q8n9e1.jpeg
-Recent URLs[$ie]=file:$HOME/Downloads/
-detailViewIconSize[$i]=16
+[Applets][1][ConfigDialog]
+DialogHeight=1440
+DialogWidth=2560
 
-[KPropertiesDialog]
-1280x800 screen: Height=569
-1280x800 screen: Width=469
-1920x1080 screen: Height=569
-1920x1080 screen: Width=497
+[Applets][1][Configuration][General]
+coloredTiles=true
 
-[Notification Messages]
-klipperClearHistoryAskAgain=false
+[Applets][1][Shortcuts]
+global=Meta+F1
 
-[PlasmaViews][Panel 2]
+[Applets][1][Wallpaper][org.kde.image][General]
+Image=file:///home/joshr/.local/share/wallpapers/Anime/lain_orange.png
+
+[Applets][1][Wallpaper][org.kde.slideshow][General]
+Image=file:///usr/share/wallpapers/cachyos-wallpapers/CachyOS_GreenSpace.png
+SlideInterval=480
+SlidePaths=/usr/share/wallpapers/
+
+[Applets][2]
+activityId=e84c4d3c-b7e0-4ed0-90e1-091d5ebfb63a
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.bigscreen.homescreen
+wallpaperplugin=org.kde.image
+
+[Applets][2][ConfigDialog]
+DialogHeight=1440
+DialogWidth=2560
+
+[Applets][2][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/cachyos-wallpapers/limine-splash.png
+
+[Applets][2][Wallpaper][org.kde.slideshow][General]
+Image=file:///usr/share/wallpapers/cachyos-wallpapers/cachysurf4.jpg
+SlideInterval=480
+SlidePaths=/usr/share/wallpapers/
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
+popupHeight=587
+popupWidth=560
+
+[PlasmaViews][Panel 101]
+floating=1
+panelLengthMode=0
+panelVisibility=0
+shell=org.kde.plasma.desktop
+
+[PlasmaViews][Panel 101][Defaults]
+maxLength=2490
+minLength=2416
+thickness=32
+
+[PlasmaViews][Panel 101][Horizontal2560]
+maxLength=2490
+minLength=2416
+
+[PlasmaViews][Panel 4]
+alignment=132
+floating=1
+floatingApplets=1
+panelLengthMode=1
+panelOpacity=0
+panelVisibility=2
+shell=org.kde.plasma.desktop
+
+[PlasmaViews][Panel 4][Defaults]
+maxLength=1622
+minLength=1622
+thickness=50
+
+[PlasmaViews][Panel 4][Horizontal1920]
+maxLength=1622
+minLength=1622
+
+[PlasmaViews][Panel 56]
 floating=1
 panelOpacity=0
 
-[PlasmaViews][Panel 2][Defaults]
-thickness=46
+[PlasmaViews][Panel 56][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 63]
+floating=1
+panelOpacity=0
+panelVisibility=0
+shell=org.kde.plasma.desktop
+
+[PlasmaViews][Panel 63][Defaults]
+thickness=32
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_showseconds_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/migrate_font_weights.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/taskmanager_configUpdate_wheelEnabled.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_showseconds_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/migrate_font_weights.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/taskmanager_configUpdate_wheelEnabled.js
