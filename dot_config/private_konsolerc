@@ -30,7 +30,6 @@ ConfigVersion=1
 DisplayPort-0=DisplayPort-0
 DisplayPort-0 eDP=eDP
 DisplayPort-2=DisplayPort-2
-ToolBarsMovable=Disabled
 eDP=eDP
 
 [Notification Messages]
