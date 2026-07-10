@@ -214,6 +214,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][6d24d8ae-6a56-510a-9908-76b03ba4c67b]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][6dd54889-557f-44d4-95ce-580d33319971][0fe72375-8ae3-4162-b96c-6998bffea014]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][6dd54889-557f-44d4-95ce-580d33319971][4e39fb23-a222-4893-a33c-6f5792c669ce]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -313,6 +316,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][7edfe81e-30cc-43c7-a506-bd4e7717f7f1][]
 padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7edfe81e-30cc-43c7-a506-bd4e7717f7f1][0fe72375-8ae3-4162-b96c-6998bffea014]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][7edfe81e-30cc-43c7-a506-bd4e7717f7f1][187a664d-1a05-4f94-b91c-ae292022e993]
@@ -551,6 +557,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][cf11644c-550d-4324-bce1-87ac1743a886][7dec2174-cd9c-41a8-b917-1789ac8d4db5]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][d43f5a4c-0940-420e-b20c-e798f019eca4][0fe72375-8ae3-4162-b96c-6998bffea014]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][d43f5a4c-0940-420e-b20c-e798f019eca4][4e39fb23-a222-4893-a33c-6f5792c669ce]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -684,7 +693,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]
-Scale=1
+Scale=2.5
 XwaylandEisNoPrompt=true
 
 [org.kde.kdecoration2]

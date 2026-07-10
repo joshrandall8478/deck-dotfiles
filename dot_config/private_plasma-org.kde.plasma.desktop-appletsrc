@@ -111,11 +111,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][101][Applets][102][Applets][134][Configuration]
-PreloadWeight=55
+PreloadWeight=47
 
 [Containments][101][Applets][102][Applets][135]
 immutability=1
 plugin=org.kde.plasma.brightness
+
+[Containments][101][Applets][102][Applets][135][Configuration]
+PreloadWeight=42
 
 [Containments][101][Applets][102][ConfigDialog]
 DialogHeight=630
@@ -139,7 +142,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][101][Applets][120][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 popupHeight=458
 popupWidth=560
 
@@ -209,6 +212,7 @@ AppletOrder=121;127;131;124;120;122;119;102;130
 
 [Containments][133]
 ItemGeometries-1280x800=
+ItemGeometries-1536x864=
 ItemGeometriesHorizontal=
 activityId=2e9e439b-891e-4796-8e7b-7224172f7fe8
 formfactor=0
@@ -223,7 +227,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][133][General]
-positions={"1280x800":[]}
+positions={"1280x800":[],"1536x864":[]}
 
 [Containments][133][Wallpaper][org.kde.image][General]
 Image=/home/deck/.local/share/wallpapers/Anime/ascii anime.png
@@ -284,4 +288,4 @@ AppletOrder=91;7;125
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8
+screenMapping=desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8

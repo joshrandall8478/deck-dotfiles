@@ -46,11 +46,6 @@ Image=file:///usr/share/wallpapers/cachyos-wallpapers/cachysurf4.jpg
 SlideInterval=480
 SlidePaths=/usr/share/wallpapers/
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-popupHeight=587
-popupWidth=560
-
 [PlasmaViews][Panel 101]
 floating=1
 panelLengthMode=0
