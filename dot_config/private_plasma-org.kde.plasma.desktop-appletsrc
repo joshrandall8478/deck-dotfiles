@@ -110,6 +110,9 @@ plugin=org.kde.plasma.bluetooth
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][101][Applets][102][Applets][134][Configuration]
+PreloadWeight=55
+
 [Containments][101][Applets][102][Applets][135]
 immutability=1
 plugin=org.kde.plasma.brightness
@@ -253,7 +256,7 @@ DialogWidth=720
 [Containments][4][Applets][7][Configuration][General]
 indicateAudioStreams=false
 interactiveMute=false
-launchers=file:///var/lib/flatpak/exports/share/applications/com.vivaldi.Vivaldi.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:steam.desktop,applications:systemsettings.desktop
+launchers=file:///var/lib/flatpak/exports/share/applications/com.vivaldi.Vivaldi.desktop,applications:steam.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,file:///var/lib/flatpak/exports/share/applications/com.spotify.Client.desktop,applications:org.kde.spectacle.desktop,applications:systemsettings.desktop
 
 [Containments][4][Applets][91]
 immutability=1
