@@ -693,7 +693,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]
-Scale=2.5
+Scale=1
 XwaylandEisNoPrompt=true
 
 [org.kde.kdecoration2]

@@ -20,8 +20,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=553
-popupWidth=459
+popupHeight=550
+popupWidth=455
 wallpaperplugin=org.kde.image
 
 [Containments][101][Applets][102][Applets][103]
@@ -64,6 +64,9 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][101][Applets][102][Applets][109]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][101][Applets][102][Applets][109][Configuration]
+PreloadWeight=55
 
 [Containments][101][Applets][102][Applets][109][Configuration][General]
 migrated=true
@@ -111,14 +114,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][101][Applets][102][Applets][134][Configuration]
-PreloadWeight=47
+PreloadWeight=15
 
 [Containments][101][Applets][102][Applets][135]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][101][Applets][102][Applets][135][Configuration]
-PreloadWeight=42
+PreloadWeight=10
 
 [Containments][101][Applets][102][ConfigDialog]
 DialogHeight=630
@@ -134,17 +137,18 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][101][Applets][119][Configuration]
-popupHeight=312
-popupWidth=493
+PreloadWeight=65
+popupHeight=309
+popupWidth=489
 
 [Containments][101][Applets][120]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][101][Applets][120][Configuration]
-PreloadWeight=65
-popupHeight=458
-popupWidth=560
+PreloadWeight=75
+popupHeight=455
+popupWidth=556
 
 [Containments][101][Applets][120][Configuration][Appearance]
 customDateFormat=ddd, MMMM dd
@@ -193,8 +197,8 @@ immutability=1
 plugin=org.kde.plasma.lock_logout
 
 [Containments][101][Applets][130][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+DialogHeight=540
+DialogWidth=720
 
 [Containments][101][Applets][130][Configuration][General]
 actionsOrder=lockScreen,switchUser,suspendToRam,requestReboot,requestShutDown,requestLogout,requestLogoutScreen,suspendToDisk
@@ -230,7 +234,7 @@ DialogWidth=720
 positions={"1280x800":[],"1536x864":[]}
 
 [Containments][133][Wallpaper][org.kde.image][General]
-Image=/home/deck/.local/share/wallpapers/Anime/ascii anime.png
+Image=/home/deck/.local/share/wallpapers/arms.png
 SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][2][Applets][7][Applets][22][Configuration]
@@ -268,8 +272,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][4][Applets][91][Configuration]
 PreloadWeight=100
-popupHeight=560
-popupWidth=998
+popupHeight=556
+popupWidth=994
 
 [Containments][4][Applets][91][Configuration][ConfigDialog]
 DialogHeight=540
@@ -288,4 +292,4 @@ AppletOrder=91;7;125
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8
+screenMapping=desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8
