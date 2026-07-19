@@ -114,14 +114,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][101][Applets][102][Applets][134][Configuration]
-PreloadWeight=15
+PreloadWeight=7
 
 [Containments][101][Applets][102][Applets][135]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][101][Applets][102][Applets][135][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][101][Applets][102][ConfigDialog]
 DialogHeight=630
@@ -206,13 +206,18 @@ actionsOrder=lockScreen,switchUser,suspendToRam,requestReboot,requestShutDown,re
 [Containments][101][Applets][131]
 immutability=1
 plugin=org.kde.plasma.appmenu
+transient=true
+
+[Containments][101][Applets][131][Configuration]
+popupHeight=400
+popupWidth=560
 
 [Containments][101][Applets][131][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+DialogHeight=540
+DialogWidth=720
 
 [Containments][101][General]
-AppletOrder=121;127;131;124;120;122;119;102;130
+AppletOrder=121;127;124;120;122;119;102;130
 
 [Containments][133]
 ItemGeometries-1280x800=
@@ -292,4 +297,4 @@ AppletOrder=91;7;125
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8
+screenMapping=desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8
