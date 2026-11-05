@@ -1,6 +1,3 @@
-[Activities][LastVirtualDesktop]
-2e9e439b-891e-4796-8e7b-7224172f7fe8=7edfe81e-30cc-43c7-a506-bd4e7717f7f1
-
 [Desktops]
 Id_1=7edfe81e-30cc-43c7-a506-bd4e7717f7f1
 Id_2=d43f5a4c-0940-420e-b20c-e798f019eca4
@@ -29,9 +26,6 @@ gamecontrollerEnabled=false
 [Script-desktopchangeosd]
 PopupHideDelay=970
 TextOnly=true
-
-[Tiling]
-padding=4
 
 [Tiling][002c521b-22f7-4773-be96-d6cefb9b8e5a][62dfc355-7c18-41be-b1f9-cefda90792c8]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -230,6 +224,10 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][6dd54889-557f-44d4-95ce-580d33319971][cd44ef03-cf41-4f1a-a7ae-8959098f452b]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6dd54889-557f-44d4-95ce-580d33319971][eb23ba1c-147b-4e7a-a9e4-61873ce693cf]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][732bb0ad-b29f-442a-a740-6d2accc821b2][]
@@ -367,9 +365,13 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][7edfe81e-30cc-43c7-a506-bd4e7717f7f1][cd44ef03-cf41-4f1a-a7ae-8959098f452b]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][7edfe81e-30cc-43c7-a506-bd4e7717f7f1][d1c6d03b-a9a4-433e-ae2b-b30b31b57fb7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7edfe81e-30cc-43c7-a506-bd4e7717f7f1][eb23ba1c-147b-4e7a-a9e4-61873ce693cf]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][7edfe81e-30cc-43c7-a506-bd4e7717f7f1][f6d5c15a-9432-46d1-b43b-e153b1d1c3d2]
@@ -573,6 +575,10 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d43f5a4c-0940-420e-b20c-e798f019eca4][cd44ef03-cf41-4f1a-a7ae-8959098f452b]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d43f5a4c-0940-420e-b20c-e798f019eca4][eb23ba1c-147b-4e7a-a9e4-61873ce693cf]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d8cf6845-1334-4a9e-a110-7b0a41a7ff60][62dfc355-7c18-41be-b1f9-cefda90792c8]

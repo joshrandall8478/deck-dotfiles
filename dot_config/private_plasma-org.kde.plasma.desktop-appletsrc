@@ -20,7 +20,7 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=550
+popupHeight=558
 popupWidth=455
 wallpaperplugin=org.kde.image
 
@@ -65,9 +65,6 @@ plugin=org.kde.plasma.networkmanagement
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][101][Applets][102][Applets][109][Configuration]
-PreloadWeight=55
-
 [Containments][101][Applets][102][Applets][109][Configuration][General]
 migrated=true
 
@@ -95,36 +92,21 @@ plugin=org.kde.plasma.notifications
 immutability=1
 plugin=org.kde.plasma.vault
 
-[Containments][101][Applets][102][Applets][115][Configuration]
-PreloadWeight=42
-
 [Containments][101][Applets][102][Applets][116]
 immutability=1
 plugin=org.kde.plasma.printmanager
-
-[Containments][101][Applets][102][Applets][116][Configuration]
-PreloadWeight=42
 
 [Containments][101][Applets][102][Applets][118]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
-[Containments][101][Applets][102][Applets][118][Configuration]
-PreloadWeight=55
-
 [Containments][101][Applets][102][Applets][134]
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][101][Applets][102][Applets][134][Configuration]
-PreloadWeight=0
-
 [Containments][101][Applets][102][Applets][135]
 immutability=1
 plugin=org.kde.plasma.brightness
-
-[Containments][101][Applets][102][Applets][135][Configuration]
-PreloadWeight=0
 
 [Containments][101][Applets][102][ConfigDialog]
 DialogHeight=630
@@ -140,8 +122,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][101][Applets][119][Configuration]
-PreloadWeight=65
-popupHeight=309
+popupHeight=310
 popupWidth=489
 
 [Containments][101][Applets][120]
@@ -149,18 +130,17 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][101][Applets][120][Configuration]
-PreloadWeight=75
 popupHeight=455
 popupWidth=556
 
 [Containments][101][Applets][120][Configuration][Appearance]
-customDateFormat=ddd, MMMM dd
+customDateFormat=ddd, MMM d
 dateDisplayFormat=BesideTime
 dateFormat=custom
 
 [Containments][101][Applets][120][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+DialogHeight=540
+DialogWidth=720
 
 [Containments][101][Applets][121]
 immutability=1
@@ -212,6 +192,8 @@ AppletOrder=121;127;124;120;122;119;102;130
 [Containments][133]
 ItemGeometries-1280x800=
 ItemGeometries-1536x864=
+ItemGeometries-1920x1080=
+ItemGeometries-3072x1728=
 ItemGeometriesHorizontal=
 activityId=2e9e439b-891e-4796-8e7b-7224172f7fe8
 formfactor=0
@@ -226,11 +208,23 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][133][General]
-positions={"1280x800":[],"1536x864":[]}
+positions={"1280x800":[],"1536x864":[],"1920x1080":[]}
 
 [Containments][133][Wallpaper][org.kde.image][General]
 Image=/home/deck/.local/share/wallpapers/arms.png
 SlidePaths=/home/deck/.local/share/wallpapers/,/usr/share/wallpapers/
+
+[Containments][134]
+activityId=2e9e439b-891e-4796-8e7b-7224172f7fe8
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][134][General]
+positions={"3072x1728":[]}
 
 [Containments][2][Applets][7][Applets][22][Configuration]
 PreloadWeight=4
@@ -266,7 +260,6 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][4][Applets][91][Configuration]
-PreloadWeight=100
 popupHeight=556
 popupWidth=994
 
@@ -287,4 +280,4 @@ AppletOrder=91;7;125
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8
+screenMapping=desktop:/org.jellyfin.JellyfinDesktop.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/Return.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/EmuDeck.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/jrh-mc.zip,0,c91d0bc0-2618-4ec0-945f-b2599e8e8166,desktop:/Steam Intros,0,2e9e439b-891e-4796-8e7b-7224172f7fe8,desktop:/steam.desktop,0,2e9e439b-891e-4796-8e7b-7224172f7fe8
